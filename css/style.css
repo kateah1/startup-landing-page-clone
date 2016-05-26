@@ -1,0 +1,25 @@
+body {
+	background-color: LightGray;
+}
+div {
+	border: 1px solid Chocolate;
+}
+
+nav {
+	background-color: white;
+}
+nav img {
+	height: 40px;
+	margin: 20px;
+}
+nav ul {
+	float: right;
+}
+nav li {
+	display: inline;
+	margin-right: 40px;
+	color: gray;
+}
+#header {
+	color: black;
+}
