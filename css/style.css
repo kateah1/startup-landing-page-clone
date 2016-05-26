@@ -35,3 +35,25 @@ html {
 .top-navigation .logo {
 	height: 70px;
 }
+
+.introducing-karma {
+	background-image: url('../images/first-background-karma.jpg');
+	height: 45.938rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;	
+}
+.introducing-karma .content {
+	text-align: center;
+	color: #fff;
+	font-family: Georgia, sans-serif;
+}
+.introducing-karma .content h1 {
+	font-size: 3rem;
+}
+.introducing-karma .content button {
+	padding: 10px 20px;
+	background-color: #FF530D;
+	border-radius: 5px;
+	color: #fff;
+}
