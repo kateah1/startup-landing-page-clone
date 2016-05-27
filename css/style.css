@@ -60,9 +60,20 @@ body {
 .introducing-karma .content h2 {
 	font-weight: 300;
 }
-.introducing-karma .content button {
-	padding: 10px 20px;
+button {
+	padding: 1rem 1.5rem;
 	background-color: #FF530D;
-	border-radius: 5px;
+	border-radius: 4px;
 	color: #fff;
+	text-shadow: none;
+	border-style: none;
+}
+button:hover {
+	padding: 1rem 1.5rem;
+	background-color: #E82C0C;
+	border-radius: 4px;
+	color: #fff;
+	text-shadow: none;
+	border-style: none;
+	cursor: pointer;
 }
