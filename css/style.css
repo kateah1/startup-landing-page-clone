@@ -16,6 +16,13 @@ body {
 	margin: 0 auto;
 	padding: 0px 15px;
 }
+.top-navigation {
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	background-color: #fff;
+	border-bottom: 1px solid #DDD;
+}
 .top-navigation .links {
 	float: right;
 	font-size: 16px;
@@ -83,8 +90,20 @@ button:hover {
 }
 .everyone-needs-karma .content {
 	font-weight: 300;
+	margin-top: 100px;
+}
+.everyone-needs-karma .content h1 {
+	font-weight: 300;
+	font-size: 2.7rem;
+}
+.everyone-needs-karma .content ul {
+	padding: 0px;
 }
 .everyone-needs-karma .content li {
 	display: inline-block;
 	margin: 50px 20px;
+}
+.everyone-needs-karma .caption h3 {
+	font-weight: 400;
+	font-size: 1.5rem;
 }
