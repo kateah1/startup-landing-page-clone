@@ -6,6 +6,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
 .content {
 	width: 970px;
 	height: 70px;
@@ -14,7 +18,6 @@ html {
 }
 .top-navigation .links {
 	float: right;
-	font-family: 'Roboto' sans-serif;
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
@@ -42,14 +45,20 @@ html {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center bottom;	
+	overflow: auto;
 }
 .introducing-karma .content {
 	text-align: center;
 	color: #fff;
-	font-family: Georgia, sans-serif;
+	margin-top: 17.5rem;
 }
 .introducing-karma .content h1 {
 	font-size: 3rem;
+	font-weight: 300;
+	margin-bottom: 0px;
+}
+.introducing-karma .content h2 {
+	font-weight: 300;
 }
 .introducing-karma .content button {
 	padding: 10px 20px;
