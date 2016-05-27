@@ -107,3 +107,47 @@ button:hover {
 	font-weight: 400;
 	font-size: 1.5rem;
 }
+
+.bottom-footer {
+	text-align: center;
+	margin-top: 350px;
+}
+.bottom-footer .content ul {
+	padding: 0px;
+}
+.bottom-footer .content li {
+	display: inline-block;
+}
+.bottom-footer .content h3, h4 {
+	font-weight: 300;
+	font-size: 1rem;
+}
+.bottom-footer .content h4 {
+	color: #838994;
+}
+.bottom-footer .content .fa-circle {
+	color: #fff;
+	border: 1px solid #DDD;
+	border-radius: 1.5rem; 
+}
+.bottom-footer .content .fa-stack {
+	margin: 10px;
+}
+.bottom-footer .content .fa-twitter {
+	color: #55acee;
+}
+.bottom-footer .content .fa-twitter:hover {
+	cursor: pointer;
+}
+.bottom-footer .content .fa-facebook {
+	color: #4c66a4;
+}
+.bottom-footer .content .fa-facebook:hover {
+	cursor: pointer;
+} 
+.bottom-footer .content .fa-instagram {
+	color: #3f729b;
+}
+.bottom-footer .content .fa-instagram:hover {
+	cursor: pointer;
+}
