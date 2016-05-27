@@ -77,3 +77,14 @@ button:hover {
 	border-style: none;
 	cursor: pointer;
 }
+
+.everyone-needs-karma {
+	text-align: center;
+}
+.everyone-needs-karma .content {
+	font-weight: 300;
+}
+.everyone-needs-karma .content li {
+	display: inline-block;
+	margin: 50px 20px;
+}
